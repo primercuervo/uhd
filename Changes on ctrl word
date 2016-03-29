@@ -1,0 +1,42 @@
+873472
+
+1101 0101 0100 0000 0000
+
+comp2
+0010 1010 1011 1111 1111
+0010 1010 1100  0000 0000                       
+
+1000 0111 0011 0100 0111 0010
+135          52        114
+
+1101 0101 0100 0000 1000
+		  8
+
+873480 = CODE WORD + Log2(SPP) // For a 256 points FFT
+1101 0101 0100 0000 1000
+-------------- ---------
+Conservative	NFFT = 8
+   Scaling
+(For some rea-
+son turned
+around) +
+two bits pad-
+ding
+
+TEST MODIFICATION = Change switch from 1 to 3 in group 3
+
+1101 1101 0100 0000 1000
+
+Substract 8
+
+1101 1101 0100 0000 0000 = 90 6240 
+
+-- Result= Even smaller values. Now changing group three from 1 to 0
+
+1101 0001 0100 0000 0000 = 85 7088
+
+WARNING!!! IF IT WAS TURNED AROUND, THAT MEANS IT WAS NOT 1 BUT TWO!! 
+KEEP THAT IN MIND!
+
+SUCCESS!
+

@@ -44,7 +44,10 @@
     <arg>
       <name>ctrl_word</name>
       <type>int</type>
-      <value>873472</value>
+      <value>857088</value> 
+      <!--Change value for dynamic range of fft. Check ctrlword changes file for better explanation -->
+
+      <!--<value>873472</value> -->
       <!--<check>EQUAL($otype, "sc16")</check>-->
       <!--<check_message>Output data type must be sc16.</check_message>-->
       <!--TODO: Check against mag-out value (requires GET() function) -->
